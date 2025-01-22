@@ -4,11 +4,13 @@
 The Link Manager Application allows users to manage their links by providing a user-friendly interface where users can submit links along with their titles. It also lets users view a list of all users and their respective links.
 
 This application is built using:
+
 - **React** for the frontend (located in the `/src` folder)
 - **Express** for the backend (located in the `/backend` folder)
 - **JSON** data storage in the `/data` folder
 
 ## Project Structure
+
 /src - Contains all the React components, including the Home page, User List, and individual user details. /backend - Contains the Express server setup and API routes for handling data operations. /data - Stores user data in JSON format.
 
 shell
@@ -19,6 +21,7 @@ Edit
 
 ### Clone the Repository
 Clone the repository to your local machine:
+
 git clone https://github.com/MichaelHDesigns/tree.git cd tree
 
 mathematica
@@ -27,6 +30,7 @@ Edit
 
 ### Install Dependencies
 Install the necessary dependencies for both the backend and frontend:
+
 npm install
 
 mathematica
@@ -35,6 +39,7 @@ Edit
 
 ### Run the Application
 Start both the backend and frontend servers:
+
 npm start
 
 markdown
