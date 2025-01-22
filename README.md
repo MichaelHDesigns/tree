@@ -1,20 +1,25 @@
 Link Manager Application
 Overview
-The Link Manager Application allows users to manage their links by providing a user-friendly interface where users can submit links along with their titles. It also lets users view a list of all users and their respective links.
+The Link Manager Application allows users to manage their links with ease. It provides a user-friendly interface where users can submit links along with their titles. Additionally, it offers a view of all users and their respective links.
 
-The application is built using:
-
-React for the frontend (located in the /src folder)
-Express for the backend (located in the /backend folder)
-The data is saved in the /data folder in JSON format.
+Technologies Used:
+Frontend: React (located in the /src folder)
+Backend: Express (located in the /backend folder)
+Data Storage: User data is stored in JSON format in the /data folder.
 Project Structure
-/src: Contains all the React components, including the Home page, User List, and individual user details.
-/backend: Contains the server (Express) setup and API routes for handling data operations.
-/data: Stores user data in JSON format.
+bash
+Copy
+Edit
+/src              # Contains all React components (Home, User List, User Details)
+/backend          # Contains Express server and API routes
+/data             # Stores user data in JSON format
 Getting Started
 Clone the Repository
 Clone the repository to your local machine:
 
+bash
+Copy
+Edit
 git clone https://github.com/MichaelHDesigns/tree.git
 cd tree
 Install Dependencies
@@ -42,13 +47,11 @@ View User List:
 After saving the data, you can view the list of all users by navigating to the /users route.
 Click on a username to view the details for that user, including their email and links.
 Backend Data Storage:
-Data is saved in the /data folder in the form of .json files. Each user has their data stored in a separate file.
+Data is saved in the /data folder in .json files.
+Each user has their data stored in a separate file.
 API Endpoints
 POST /save: Saves user data (username, email, links) to the backend.
 GET /users: Fetches a list of all users and their data.
 Accessing the Application
 Open http://localhost:3000 to view the application.
 Open http://localhost:5000/users to see a list of users.
-vbnet
-Copy
-Edit
