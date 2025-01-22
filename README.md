@@ -1,4 +1,4 @@
-#Link Manager Application
+Link Manager Application
 
 Overview
 The Link Manager Application allows users to manage their links easily.
