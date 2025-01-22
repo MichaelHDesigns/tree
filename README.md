@@ -5,7 +5,7 @@ The Link Manager Application allows users to manage their links easily.
 It provides an intuitive interface where users can submit links with their titles
 and view a list of all users and their respective links.
 
-Technologies Used:
+# *Technologies Used:*
 
 Frontend: React (located in the /src folder)
 
@@ -14,7 +14,7 @@ Backend: Express (located in the /backend folder)
 Data Storage: User data is stored in JSON format in the /data folder.
 
 
-Project Structure:
+# *Project Structure:*
 
 /src: Contains React components (Home, User List, User Details)
 
@@ -22,19 +22,19 @@ Project Structure:
 
 /data: Stores user data in JSON format
 
-Getting Started:
+# *Getting Started:*
 
 Clone the repository to your local machine:
 
 ``git clone https://github.com/MichaelHDesigns/tree.git`` && 
 ``cd tree``
 
-Install Dependencies
+# *Install Dependencies:*
 Install the necessary dependencies for both the backend and frontend:
 
 ``npm install``
 
-Run the Application
+# *Run the Application:*
 
 Start the backend and frontend servers:
 
@@ -42,7 +42,7 @@ Start the backend and frontend servers:
 
 This will start the Express server on http://localhost:5000 and the React app on http://localhost:3000.
 
-How to Use:
+# *How to Use:*
 
 Add User Data:
 
@@ -63,7 +63,7 @@ Data is saved in the /data folder in .json files.
 
 Each user has their data stored in a separate file.
 
-API Endpoints:
+# *API Endpoints:&
 
 POST /save: Saves user data (username, email, links) to the backend.
 
