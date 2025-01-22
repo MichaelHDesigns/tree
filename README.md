@@ -10,12 +10,6 @@ The application is built using:
 - **Express** for the backend (located in the `/backend` folder)
 - The data is saved in the `/data` folder in JSON format.
 
-## Project Structure
-
-- `/src`: Contains all the React components, including the Home page, User List, and individual user details.
-- `/backend`: Contains the server (Express) setup and API routes for handling data operations.
-- `/data`: Stores user data in JSON format.
-
 ## Getting Started
 
 ### Clone the Repository
@@ -33,14 +27,16 @@ Copy
 Edit
 npm install
 Run the Application
-Start the backend and frontend servers:
+Start both the backend and frontend servers:
 
 bash
 Copy
 Edit
 npm start
-This will start the Express server on http://localhost:5000 and the React app on http://localhost:3000.
+This will start:
 
+The Express server on http://localhost:5000
+The React app on http://localhost:3000
 How to Use
 Add User Data:
 On the homepage, enter your username, email, and link details (title and URL).
@@ -57,6 +53,3 @@ GET /users: Fetches a list of all users and their data.
 Accessing the Application
 Open http://localhost:3000 to view the application.
 Open http://localhost:5000/users to see a list of users.
-vbnet
-Copy
-Edit
