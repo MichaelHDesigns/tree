@@ -20,12 +20,16 @@ cd tree
 Install Dependencies
 Install the necessary dependencies for both the backend and frontend:
 
-
+bash
+Copy
+Edit
 npm install
 Run the Application
 Start the backend and frontend servers:
 
-
+bash
+Copy
+Edit
 npm start
 This will start the Express server on http://localhost:5000 and the React app on http://localhost:3000.
 
@@ -45,3 +49,6 @@ GET /users: Fetches a list of all users and their data.
 Accessing the Application
 Open http://localhost:3000 to view the application.
 Open http://localhost:5000/users to see a list of users.
+vbnet
+Copy
+Edit
