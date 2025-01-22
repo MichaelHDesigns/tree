@@ -11,9 +11,6 @@ This application is built using:
 ## Project Structure
 /src - Contains all the React components, including the Home page, User List, and individual user details. /backend - Contains the Express server setup and API routes for handling data operations. /data - Stores user data in JSON format.
 
-shell
-Copy
-Edit
 
 ## Getting Started
 
@@ -22,27 +19,18 @@ Clone the repository to your local machine:
 
 git clone https://github.com/MichaelHDesigns/tree.git cd tree
 
-mathematica
-Copy
-Edit
 
 ### Install Dependencies
 Install the necessary dependencies for both the backend and frontend:
 
 npm install
 
-mathematica
-Copy
-Edit
 
 ### Run the Application
 Start both the backend and frontend servers:
 
 npm start
 
-markdown
-Copy
-Edit
 
 This will start:
 - The **Express server** on [http://localhost:5000](http://localhost:5000)
