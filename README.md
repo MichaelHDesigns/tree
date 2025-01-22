@@ -63,7 +63,7 @@ Data is saved in the /data folder in .json files.
 
 Each user has their data stored in a separate file.
 
-# *API Endpoints:&
+# *API Endpoints:*
 
 POST /save: Saves user data (username, email, links) to the backend.
 
